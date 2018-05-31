@@ -1,12 +1,12 @@
 # Authors for posts etc
 
-- name: Geoff K
+geoff_kendal:
+  name: Geoff K
   bio: Blah blah blah
   github: squiggleuk
   avatar: avatar-squiggleuk.jpg
 
-- name: Parker Moore
+ian_driver:
+- name: Ian Driver
   github: parkr
 
-- name: Liu Fengyun
-  github: liufengyun
