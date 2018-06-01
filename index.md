@@ -9,4 +9,3 @@ title: "Latest Posts"
 	{% include post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles -->
-
