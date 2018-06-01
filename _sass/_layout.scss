@@ -51,7 +51,6 @@
 		a {
 			// line hover effect
 			position: relative;
-                        color: $yellow;
 			display: block;
 			margin-right: $gutter;
 			padding: (.25 * $masthead-height) 0 (.25 * $masthead-height) ;
@@ -77,6 +76,7 @@
 			}
 			&:active:after,
 			&:hover:after {
+                                color: $yellow;
 				width: 100%;
 			}
 		}
