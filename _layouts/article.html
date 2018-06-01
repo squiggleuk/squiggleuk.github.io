@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div id="main" role="main">
-    <div style="background:white">
 	<article class="wrap" itemscope itemtype="http://schema.org/Article">
+            <div style="background:white">
 		{% if page.image.feature %}
 		<div class="page-feature">
 			<div class="page-image">
@@ -32,6 +32,6 @@ layout: default
 			</div><!-- /.content -->
 		</div><!-- /.inner-wrap -->
 		{% if page.ads == true %}<div class="ads">{% include advertising.html %}</div><!-- /.ads -->{% endif %}
+            </div>
 	</article><!-- ./wrap -->
-    </div>
 </div><!-- /#main -->
