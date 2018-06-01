@@ -1,13 +1,12 @@
 ---
-title: Retail AI Hackathon 2
+title: Test Article 05
 categories: Retail
-excerpt: "Pizza-powered turbo coding!"
+excerpt: "Lorem ipsum dolor sit amet"
 author: geoff_kendal
 layout: article
 image: 
-  feature: new-post-feature.jpg # 250*400
-  teaser: new-post-teaser.jpg   # 1024*200
-tags: [film, review, indie]
+  feature: test-article05-feature.jpg # 400*250
+  teaser: test-article05-teaser.jpg   # 1024*256
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed facilisis odio, vitae ultrices libero. Nunc vitae metus varius, vestibulum ipsum vel, consequat lorem. Nam viverra consequat eros, a blandit mauris facilisis at. Cras cursus tortor eu dolor auctor lobortis. Ut congue nisi id dolor laoreet condimentum. Pellentesque rutrum felis vel arcu sagittis vulputate non dignissim mi. Ut sit amet nibh in est pulvinar facilisis.
