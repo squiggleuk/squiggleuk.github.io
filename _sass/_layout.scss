@@ -51,6 +51,7 @@
 		a {
 			// line hover effect
 			position: relative;
+                        color: $yellow;
 			display: block;
 			margin-right: $gutter;
 			padding: (.25 * $masthead-height) 0 (.25 * $masthead-height) ;
@@ -106,8 +107,7 @@
 			font-weight: 700;
 			@include font-size(16,no);
 			line-height: .5 * $masthead-height; // half the height to center vertically
-			color: $black;
-			text-transform: uppercase;
+			color: $white;
 		}
 	}
 }
