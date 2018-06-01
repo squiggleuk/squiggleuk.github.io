@@ -9,6 +9,7 @@
 #masthead {
 	padding: $gutter;
 	z-index: 5;
+        background: #00143c;
 	@include transform(translate(0,0));
 	@include transition(500ms cubic-bezier(.645,.045,.355,1.000));
 	&.slide {
