@@ -21,13 +21,13 @@ $border-radius               	: 3px;
    Color variables
    ========================================================================== */
 
-$white                        : #fff;
-$black                        : #000;
+$white                          : #fff;
+$black                          : #000;
 
-$body-color                  	: #ebebeb;
+$body-color                  	: #00143c;
 
 $text-color                  	: #313130;
-$caption-color                : mix($white, $text-color, 25%);
+$caption-color                  : mix($white, $text-color, 25%);
 
 $base-color                  	: #343434;
 $comp-color                  	: complement($base-color);

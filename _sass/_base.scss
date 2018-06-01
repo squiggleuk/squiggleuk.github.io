@@ -8,7 +8,7 @@
 
 body {
 	font-family: $base-font;
-        background: #00143c;
+        background: $body-color;
 	color: $text-color;
 	@include font-size(16);
 }
