@@ -6,6 +6,10 @@
   @include outer-container;
 }
 
+article .wrap {
+  background: $white;
+}
+
 .come-in {
   @include transform(translateY(20px));
   @include animation(pop 0.5s ease forwards);
