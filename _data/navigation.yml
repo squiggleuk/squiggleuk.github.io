@@ -1,6 +1,14 @@
 # Site navigation links
 
-- title: About
-  url: http://google.com
-  excerpt: Random link
+- title: Our values
+  url: https://www.williamhillplc.com/careers/uk/working-at-william-hill/go-one-better/
+  excerpt: Meet our values
+  image:
+- title: What you can do here
+  url: https://www.williamhillplc.com/careers/uk/what-you-can-do-here/
+  excerpt: We bet. We game. We love our tech.
+  image:
+- title: People Development
+  url: https://www.williamhillplc.com/careers/uk/working-at-william-hill/people-development/
+  excerpt: committed to developing and supporting all of our people
   image:
