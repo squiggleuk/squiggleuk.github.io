@@ -3,7 +3,7 @@ title: Test Article 04
 categories: Retail
 excerpt: "Lorem ipsum dolor sit amet"
 author: geoff_kendal
-layout: media
+layout: article
 image: 
   feature: test-article04-feature.jpg # 400*250
   teaser: test-article04-teaser.jpg   # 1024*256
