@@ -1,5 +1,5 @@
 ---
-title: Test Article 08
+title: EC2 t-series woes
 categories: Retail
 excerpt: "Don't get caught out when using AWS ec2 t-series instances"
 author: geoff_kendal
