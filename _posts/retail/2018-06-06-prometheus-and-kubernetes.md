@@ -1,7 +1,7 @@
 ---
 title: Test Article 09
 categories: Retail
-excerpt: "Lorem ipsum dolor sit amet"
+excerpt: "Getting to grips with prometheus monitoring on kubernetes clusters"
 author: geoff_kendal
 layout: article
 image: 
