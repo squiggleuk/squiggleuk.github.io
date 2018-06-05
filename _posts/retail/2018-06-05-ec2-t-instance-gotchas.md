@@ -1,7 +1,7 @@
 ---
 title: Test Article 08
 categories: Retail
-excerpt: "Lorem ipsum dolor sit amet"
+excerpt: "Don't get caught out when using AWS ec2 t-series instances"
 author: geoff_kendal
 layout: article
 image: 
