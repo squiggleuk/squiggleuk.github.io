@@ -1,12 +1,12 @@
 ---
-title: EC2 t-series woes
+title: Our first hackathon with the Retail team
 categories: Retail
-excerpt: "Don't get caught out when using AWS ec2 t-series instances"
+excerpt: "Lorem ipsum dolor sit amet"
 author: geoff_kendal
 layout: article
 image: 
-  feature: test-article08-feature.jpg # 400*250
-  teaser: test-article08-teaser.jpg   # 1024*256
+  feature: first-hackathon-feature.jpg # 1024*256
+  teaser: first-hackathon-teaser.jpg   # 400*250
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed facilisis odio, vitae ultrices libero. Nunc vitae metus varius, vestibulum ipsum vel, consequat lorem. Nam viverra consequat eros, a blandit mauris facilisis at. Cras cursus tortor eu dolor auctor lobortis. Ut congue nisi id dolor laoreet condimentum. Pellentesque rutrum felis vel arcu sagittis vulputate non dignissim mi. Ut sit amet nibh in est pulvinar facilisis.
