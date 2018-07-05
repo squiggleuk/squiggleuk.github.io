@@ -8,7 +8,7 @@ This is the source code that is used to build $techBlogURL. We're using Jekyll o
 * Log in to GitHub with your own account, and create a [fork](https://help.github.com/articles/fork-a-repo/) of [this repo](http://repo.url)
 * Clone the newly forked repo to your local machine
 * Run `gem install bundler jekyll` to install Jekyll
-* Run `bundle exec jekyll serve` from the local repo. This should build the site and run a webserver on [http://localhost:4000]
+* Run `bundle exec jekyll serve` from the local repo. This should build the site and run a webserver on http://localhost:4000
 * Make your changes (Jekyll should rebuild the site when a file is modified)
 * Commit and push your changes to your forked repo
 * Create a [pull request](https://help.github.com/articles/creating-a-pull-request/) from your repo, to the main one we forked from
