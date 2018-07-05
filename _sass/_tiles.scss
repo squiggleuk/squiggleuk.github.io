@@ -2,60 +2,66 @@
    Tiles
    ========================================================================== */
 
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
 .tile {
-  position: relative;
-  @include outer-container;
-  margin-bottom: $gutter;
-  background: white;
-  @include media($micro) {
-    @include fill-parent;
+
+  &:hover{
+    .post-title{
+      background-color: #00afff;
+    }
   }
-  @include media(new-breakpoint(min-width em(480) 12)) {
-    @include span-columns(3);
-    @include omega(4n);
-  }
-  .entry-date {
-    @include font-size(16,no);
-    color: lighten($text-color,25);
-  }
+
   .post-title {
-    @include font-size(18,no);
+    font-size: .88rem;
+    line-height: 1.4;
+    margin-bottom: 0;
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
     bottom: 0px;
-    left: 0px;
-    width:100%;
+    width: 100%;
     padding: 8px;
     color: $white;
-    font-size: 10pt;
     font-weight: normal;
   }
-  a {
-    color: $white;
-    font-size: 10pt;
-    font-weight: normal;
-  }
-  .post-excerpt {
-    @include font-size(16);
-  }
+
   .post-teaser {
     position: relative;
     display: block;
-    &:after {
-      content: '';
-      position: absolute;
+    height: 100%;
+    img {
       width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      background: rgba($base-color,0);
-      pointer-events: none;
-      @include transition(background 0.3s);
-    }
-    &:hover {
-      &:after {
-        background: rgba($base-color,0.2);
-      }
     }
   }
 }
+
+ @media screen and (min-width : 320px) and (max-width : 480px) {
+   .tiles {
+     grid-template-columns: repeat(1, 1fr);
+   }
+ }
+
+ @media screen and (min-width : 481px) and (max-width : 768px) {
+   .tiles {
+     grid-template-columns: repeat(2, 1fr);
+   }
+ }
+
+ @media only screen and (min-width : 769px) and (max-width : 1024px) {
+   .tiles {
+     grid-template-columns: repeat(3, 1fr);
+   }
+ }
+
+ @media only screen and (min-width : 1025px) {
+   .tile {
+     &:first-child{
+       grid-column: 1 / 3;
+       grid-row: 1 / 3;
+     }
+   }
+ }
