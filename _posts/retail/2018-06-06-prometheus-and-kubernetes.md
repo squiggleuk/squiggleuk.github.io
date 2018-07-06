@@ -5,6 +5,8 @@ excerpt: "Getting to grips with prometheus monitoring on kubernetes clusters"
 author: geoff_kendal
 layout: article
 image: 
+#  feature: prometheus-and-kubernetes-feature.jpg # 1024*256
+#  teaser: prometheus-and-kubernetes-teaser.jpg   # 534*338
   feature: prometheus-and-kubernetes-feature.jpg # 1024*256
   teaser: prometheus-and-kubernetes-teaser.jpg   # 534*338
 ---
