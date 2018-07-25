@@ -5,10 +5,8 @@ excerpt: "Lorem ipsum dolor sit amet"
 author: geoff_kendal
 layout: article
 image: 
-#  feature: dev-environments-on-demand-feature.jpg # 1024*256
-#  teaser: dev-environments-on-demand-teaser.jpg   # 534*334
-  feature: prometheus-and-kubernetes-feature.jpg # 1024*256
-  teaser: prometheus-and-kubernetes-teaser.jpg   # 534*338
+  feature: dev-environments-on-demand-feature.jpg # 1024*256
+  teaser: dev-environments-on-demand-teaser.jpg   # 534*334
 
 ---
 
